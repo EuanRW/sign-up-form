@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap');
+
+* {
+    /* border: 1px solid red; */
+    font-family: 'Libre Caslon Text', serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+#sideBanner {
+    width: 40%;
+    height: 100vh;
+    background: url("./nordic.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#logoDiv {
+    background-color: black;
+    opacity: 0.8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#logo {
+    height: 50px;
+    margin: 1rem;
+    opacity: 1;
+}
+
+#logoText {
+    opacity: 1;
+}
+
+#pageContent {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
