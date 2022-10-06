@@ -11,7 +11,7 @@ body {
     height: 100vh;
 }
 
-#sideBanner {
+#side_banner {
     width: 40%;
     height: 100vh;
     background: url("./nordic.png");
@@ -23,7 +23,7 @@ body {
     color: white;
 }
 
-#logoDiv {
+#logo_div {
     background-color: black;
     opacity: 0.8;
     width: 100%;
@@ -39,16 +39,52 @@ body {
     opacity: 1;
 }
 
-#logoText {
+#logo_text {
     opacity: 1;
 }
 
-#pageContent {
+#page_content {
     width: 60%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    background-color: #f9fafb;
+}
 
+#form_title {
+    padding: 10px 10px 0px 10px;
+}
+
+#form_container {
+    background-color: white;
+    width: 100%;
+}
+
+#signup_form {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.input_container {
+
+}
+
+label {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: #6a717a;
+    margin-bottom: 3px;
+}
+
+input {
+    width: 100%;
+    box-sizing:border-box;
+}
+
+#form_footer {
+    padding: 0px 10px 10px 10px;
 }
 
